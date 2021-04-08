@@ -1,0 +1,20 @@
+{
+  "name": "mini-todo",
+  "version": "0.0.0",
+  "description": "Webcomponent mini-todo following open-wc recommendations",
+  "author": "mini-todo",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && concurrently -k -r \"tsc --watch --preserveWatchOutput\" \"wds\""
+  },
+  "dependencies": {
+    "lit-html": "^1.3.0",
+    "lit-element": "^2.4.0"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.11",
+    "concurrently": "^5.3.0",
+    "typescript": "^4.2.4",
+    "tslib": "^2.2.0"
+  }
+}
